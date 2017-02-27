@@ -1,0 +1,25 @@
+1. Components of hadoop 2.X:
+   
+   Hadoop 2.x has three major components:
+        * HDFS
+        * YARN
+        * MAPREDUCE
+   HDFS:
+     * Stands for Hadoop Distributed File System
+     * It is also known as HDFS V2 as it is part of Hadoop 2.x
+     * It is used as a Distributed Storage System in Hadoop Architecture
+     * It is a java based file system that provides scalable and reliable data storage
+     * It was desinged to span large clusters of commodity servers
+   YARN:
+     * Stands for Yet Another Resource Negotiator
+     * It is new component in hadoop 2.x architecture
+     * It is also known as "MR V2" 
+     * It is a cluster management technology
+     * It is one of the key feature in the second-generation hadoop 2.x version of the apache software foundation's open source distributed processing framework
+
+   MAPREDUCE:
+     * It is a Batch Processing or Distributed Data Processing Module
+     * It is also known as "MR V1" as it is part of hadoop 1.x with some updated features
+     * Its job is to split the input data set into independent chunks which are processed by the map tasks in a completely parallel manner
+     * The framwork sorts the output of the maps ,which are then input to the reduce tasks
+
